@@ -742,19 +742,98 @@ footer {
 
 /***** media queries desktop *****/
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1440px) {
+
+  /***** typeography *****/
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  /***** typeography *****/
+
+
+
+
   
   /***** body *****/
 
   .container {
     margin: 0 auto;
-    width: 64%;
+    width: 83%;
     max-width: 1440px;
   }
 
   /***** body *****/
 
+
+
+
+  /***** header section *****/ 
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
   
+  /***** header section *****/
+
+
+  /***** hero section *****/
+
+  .hero-section {
+    margin-top: -20px;
+  }
+
+  .hero-content {
+    position: relative;
+    left: 124px;
+  }
+
+  /***** hero section *****/
+
+
+
+
+  /***** Attractions and about section *****/
+
+  .Attraction-and-About {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  /***** About section *****/
+
+  #About-section {
+    width: 50%;
+    height: 617px;
+  }
+
+  .about-img {
+    width: 99%;
+    height: fit-content;
+    object-fit: cover;
+  }
+
+  /***** About section *****/
+
+
+
+  /***** Attractions section *****/
+
+  #Attraction-section {
+    width: 44%;
+    margin-top: -73px;
+  }
+
+  .attraction-cards .card {
+    width: 47%;
+  }
   
 }
 
