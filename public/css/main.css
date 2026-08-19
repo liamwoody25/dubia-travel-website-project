@@ -832,9 +832,26 @@ footer {
   }
 
   .attraction-cards .card {
-    width: 47%;
+    width: 221px;
+  }
+
+  /***** Attractions section *****/
+
+
+
+
+  /***** faq section *****/
+
+  #Faqs-section {
+    display: flex;
+    width: 48%;
   }
   
+  .faq-cards .faq-card {
+    width: 50%;
+  }
+
+  /***** faq section *****/
 }
 
 
