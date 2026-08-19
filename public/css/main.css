@@ -1,0 +1,765 @@
+/***** typeography *****/
+
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+
+h3 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+
+p {
+  font-size: 16px ;
+  margin: 0;
+  line-height: 25px;
+  text-align: center;
+}
+
+/***** typeography *****/
+
+
+
+
+/***** componenets *****/
+
+.faq-toggle {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  padding: 0;
+}
+
+.bi-plus {
+  font-size: 30px;
+  color: #fefae0;
+}
+
+.ham-burger {
+  width: 43px;
+  height: 34px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.burger-bar {
+  position: absolute;
+  width: 7%;
+  top: 25px;
+  height: 5px;
+  background-color: #4682bb;
+  transform: translate(15%, -50%);
+  transition: transform, opacity, top;
+  transition-duration: .9s;
+  border-radius: 25px;
+}
+
+.bar-center {
+  top: 33px;
+}
+
+.bar-bottom {
+  top: 42px;
+}
+
+.ham-burger.enable .bar-top {
+  transform: translate(10%, 2%) rotate(-315deg);
+  top: 30px;
+}
+
+.ham-burger.enable .bar-center {
+  opacity: 0;
+}
+
+.ham-burger.enable .bar-bottom {
+  transform: translate(13%, 80%) rotate(-225deg);
+  top: 26px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.hero-btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fefae0;
+  box-shadow: 0 10px 16px lightgray;
+  transition: 0.5s;  
+}
+
+.hero-btn:hover {
+  transform: scale(1.1);
+}
+
+
+/***** form *****/
+
+input {
+  width: 256px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  height: 25px;
+  margin: 5px;
+  outline: none;
+}
+
+:placeholder-shown {
+  padding: 10px;
+}
+
+textarea {
+  width: 90%;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  margin-top: 10px;
+  outline: none;
+}
+
+/***** form *****/
+
+
+
+
+/***** componenets *****/
+
+
+
+
+/**** links ****/
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.About-link,
+.card-link {
+  color: #89c2d9;
+}
+
+.footer-items > a {
+  text-decoration: none;
+}
+
+
+/**** icons ****/
+
+.bi-facebook {
+  font-size: 20px;
+}
+
+
+ 
+/**** links ****/
+
+
+
+
+/**** body ****/
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+body {
+  margin: 0;
+}
+
+/**** body ****/
+
+
+
+
+/***** header *****/
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-screen-menu {
+  position: absolute;
+  width: 85%;
+  height: auto;
+  display: none;
+  top: 56px;
+  padding: 10px;
+  gap: 14px;
+  background-color: lightskyblue;
+}
+
+.header-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.left-screen-menu.active {
+  display: block;
+}
+
+/***** header *****/
+
+
+
+
+/***** hero-section *****/
+
+.hero-section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -20px;
+  top: 45px;
+}
+
+
+.hero-img {
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.hero-content {
+  position: relative;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  left: 47px;
+  bottom: 162px;
+  opacity: 0.9;
+}
+
+/***** hero-section *****/
+
+
+
+
+/***** Attraction and About *****/
+
+.Attraction-and-About {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+
+/*** About-section ***/
+
+#About-section {
+  background-color: #caf0f8;
+  height: auto;
+  margin: 0px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.About-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+}
+
+.about-img {
+  width: 99%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/*** About-section ***/
+
+
+
+
+/*** Attraction-section ***/
+
+#Attraction-section {
+  border-radius: 20px;
+  width: 100%;
+  background-color: #f5ebe0;
+  margin: 30px 0px 40px 0px;
+}
+
+.attraction-title {
+  display: flex;
+  justify-content: center;
+}
+
+.attraction-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 25px;
+}
+
+.attraction-cards .card {
+  width: 90%;
+  background-color: #fefae0;
+  box-shadow: 0 10px 16px lightgray;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.attraction-cards .card:hover {
+  transform: scale(1.1);
+}
+
+
+.card-body {
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+/*** Attraction-section ***/
+
+
+
+/***** Attraction and About *****/
+
+
+
+
+/***** faqs-section *****/
+
+#Faqs-section {
+  padding: 100px 0px 40px 0px;
+  background-color: #f5ebe0;
+  padding: 20px;
+  border-radius: 15px;
+  width: 87%;
+}
+
+.faqs-content {
+  display: flex;
+  justify-content: center;
+}
+
+.faq-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-cards .faq-card {
+  width: 99%;
+  background-color: #ffbf69;
+  border-radius: 7px;
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-content > h3 {
+  font-size: 18px;
+}
+
+.answer-text {
+  width: 100%;
+  background-color: #fefae0;
+  display: none;
+}
+
+/***** faqs-section *****/
+
+
+
+
+
+/***** accommodation-section *****/
+
+#accommodation-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #caf0f8;
+  width: 89%;
+  padding: 10px 11px 19px;
+  margin: 30px 7px;
+  border-radius: 15px;
+}
+
+.accomm-content {
+  display: flex;
+  justify-content: center;
+}
+
+.accomm-cards {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.accomm-cards .accomm-card {
+  background-color: #fefae0;
+  width: 92%;
+  border-radius: 15px;
+  box-shadow: 0 13px 41px lightgray;
+}
+
+.accomm-body {
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/***** accommodation-section *****/
+
+
+
+
+/***** contact-section *****/
+
+#Contact-section {
+  background-color: #f5ebe0;
+  margin: 8px;
+  padding: 20px;
+  width: 83%;
+  border-radius: 15px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/***** contact-section *****/
+
+
+
+/* footer-section */
+
+footer {
+  background-color: #f8f9fa;
+  margin-top: 40px;
+  padding: 48px 0;
+}
+
+.footer-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.footer-items > ul {
+  list-style: none;
+  font-size: 16px;
+  padding-left: 22px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.footer-right {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* footer-section */
+
+
+
+/***** media queries tablet *****/
+
+@media screen and (min-width: 768px) {
+
+  h2 {
+    font-size: 28px;
+  }
+
+  /***** components *****/
+
+  .ham-burger {
+    display: none;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+  }
+
+  
+  /***** components *****/
+
+
+
+  
+  /**** body ****/
+
+  .container {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  /**** body ****/
+
+
+
+  /**** header section ****/
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-screen-menu {
+    position: static;
+    display: flex;
+    display: block;
+    background-color: transparent;
+    width: 48%;
+  }
+
+  /**** header section ****/
+
+
+
+
+
+  /**** hero section ****/
+
+  .hero-section {
+    margin-top: -12px;
+  }
+
+  .hero-content {
+    position: relative;
+    bottom: 339px;
+    left: 168px;
+    padding: 52px 50px 22px;
+  }
+
+  /**** hero section ****/
+
+  /***** Attraction and About *****/
+
+  .Attraction-and-About {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+  /**** about section ****/
+
+  #About-section {
+    margin-top: -90px;
+  }
+
+  .About-content {
+    width: 80%;
+  }
+
+  .about-img {
+    width: 53%;
+  }
+  
+  /**** about section ****/
+
+
+
+
+
+/**** attraction section ****/
+
+  #Attraction-section {
+    width: 100%;
+  }
+
+  .attraction-cards {
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .attraction-cards .card {
+    width: 40%;
+  }
+
+/**** attraction section ****/
+
+
+
+
+
+/**** faqs section ****/
+
+#Faqs-section {
+  width: 94%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.faq-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.faq-cards .faq-card {
+  width: 45%;
+}
+
+/**** faqs section ****/
+
+
+
+
+
+/**** Accommoation section ****/
+
+#accommodation-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  width: 96%;
+}
+
+.accomm-content {
+  margin-bottom: 20px;
+}
+
+.accomm-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.accomm-cards .accomm-card {
+  width: 40%;
+}
+
+/**** Accommoation section ****/
+
+
+
+
+
+/**** Contact section ****/
+
+#Contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 93%;
+}
+
+/**** Contact section ****/
+
+
+
+
+/**** footer section ****/
+
+footer {
+  padding: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  margin-left: 15px;
+}
+
+/**** footer section ****/
+
+}
+
+/***** media queries tablet *****/
+
+
+
+
+/***** media queries desktop *****/
+
+@media screen and (min-width:1024px) {
+  
+  /***** body *****/
+
+  .container {
+    margin: 0 auto;
+    width: 64%;
+    max-width: 1440px;
+  }
+
+  /***** body *****/
+
+  
+  
+}
+
+
+
+
+
+
