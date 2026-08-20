@@ -49,7 +49,7 @@ p {
 }
 
 .bi-plus {
-  font-size: 30px;
+  font-size: 24px;
   color: #fefae0;
 }
 
@@ -64,7 +64,7 @@ p {
 .burger-bar {
   position: absolute;
   width: 7%;
-  top: 25px;
+  top: 22px;
   height: 5px;
   background-color: #4682bb;
   transform: translate(15%, -50%);
@@ -74,23 +74,23 @@ p {
 }
 
 .bar-center {
-  top: 33px;
+  top: 30px;
 }
 
 .bar-bottom {
-  top: 42px;
+  top: 38px;
 }
 
-.ham-burger.enable .bar-top {
+.ham-burger.active .bar-top {
   transform: translate(10%, 2%) rotate(-315deg);
   top: 30px;
 }
 
-.ham-burger.enable .bar-center {
+.ham-burger.active .bar-center {
   opacity: 0;
 }
 
-.ham-burger.enable .bar-bottom {
+.ham-burger.active .bar-bottom {
   transform: translate(13%, 80%) rotate(-225deg);
   top: 26px;
 }
@@ -158,7 +158,7 @@ a {
 
 .About-link,
 .card-link {
-  color: #89c2d9;
+  color: #0466c8;
 }
 
 .footer-items > a {
@@ -201,7 +201,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .left-screen-menu {
@@ -322,6 +322,7 @@ header {
   justify-content: center;
   padding: 20px;
   gap: 25px;
+  margin-bottom: 10px;
 }
 
 .attraction-cards .card {
@@ -329,7 +330,7 @@ header {
   background-color: #fefae0;
   box-shadow: 0 10px 16px lightgray;
   border-radius: 15px;
-  transition: 0.4s;
+  transition: 0.9s;
 }
 
 .attraction-cards .card:hover {
@@ -339,6 +340,7 @@ header {
 
 .card-body {
   text-align: center;
+  padding: 5px;
 }
 
 .card-img {
@@ -370,6 +372,7 @@ header {
 .faqs-content {
   display: flex;
   justify-content: center;
+  margin-bottom: 13px;
 }
 
 .faq-cards {
@@ -394,6 +397,7 @@ header {
 
 .card-content > h3 {
   font-size: 18px;
+  margin: 0;
 }
 
 .answer-text {
@@ -423,25 +427,28 @@ header {
 .accomm-content {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .accomm-cards {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .accomm-cards .accomm-card {
   background-color: #fefae0;
-  width: 92%;
+  width: 40%;
   border-radius: 15px;
   box-shadow: 0 13px 41px lightgray;
 }
 
 .accomm-body {
   text-align: center;
+  padding: 5px;
 }
 
 .card-img {
@@ -459,7 +466,7 @@ header {
 #Contact-section {
   background-color: #f5ebe0;
   margin: 8px;
-  padding: 20px;
+  padding: 23px;
   width: 83%;
   border-radius: 15px;
 }
@@ -479,12 +486,13 @@ header {
 
 
 
+
 /* footer-section */
 
 footer {
   background-color: #f8f9fa;
   margin-top: 40px;
-  padding: 48px 0;
+  padding: 19px 0;
 }
 
 .footer-items {
@@ -507,9 +515,9 @@ footer {
 }
 
 .footer-right {
-  margin-top: 15px;
+  margin-top: 29px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -519,6 +527,16 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  margin-top: 25px;
+}
+
+.icon-content {
+  text-align: center;
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: column;
 }
 
 /* footer-section */
@@ -545,6 +563,7 @@ footer {
     padding-top: 13px;
   }
 
+
   
   /***** components *****/
 
@@ -555,7 +574,7 @@ footer {
 
   .container {
     margin: 0 auto;
-    width: 95%;
+    width: 84%;
   }
 
   /**** body ****/
@@ -567,7 +586,7 @@ footer {
   header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .left-screen-menu {
@@ -588,16 +607,25 @@ footer {
 
   .hero-section {
     margin-top: -12px;
+    margin-left: -63px;
+    margin-right: -63px;
   }
 
   .hero-content {
     position: relative;
-    bottom: 339px;
+    bottom: 241px;
     left: 168px;
     padding: 52px 50px 22px;
   }
 
+  .hero-img {
+    height: 300px;
+    object-fit: cover;
+  }
   /**** hero section ****/
+
+
+
 
   /***** Attraction and About *****/
 
@@ -725,10 +753,24 @@ footer {
   padding: 0;
 }
 
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .icons {
   display: flex;
   justify-content: end;
   margin-left: 15px;
+}
+
+.footer-right {
+  flex-direction: column;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 /**** footer section ****/
@@ -759,12 +801,22 @@ footer {
 
 
 
+  /***** components *****/
+
+  input {
+    width: 400px;
+  }
+
+
+  
+
+
   
   /***** body *****/
 
   .container {
     margin: 0 auto;
-    width: 83%;
+    width: 77%;
     max-width: 1440px;
   }
 
@@ -787,11 +839,19 @@ footer {
 
   .hero-section {
     margin-top: -20px;
+    display: block;
   }
 
   .hero-content {
     position: relative;
-    left: 124px;
+    left: 388px;
+    width: 372px;
+  }
+
+  .hero-img {
+    object-fit: cover;
+    width: 90%;
+    margin-left: 65px;
   }
 
   /***** hero section *****/
@@ -805,6 +865,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   /***** About section *****/
@@ -827,15 +888,16 @@ footer {
   /***** Attractions section *****/
 
   #Attraction-section {
-    width: 44%;
-    margin-top: -73px;
+    width: 47%;
+    margin-top: -93px;
   }
 
   .attraction-cards .card {
-    width: 221px;
+    width: 230px;
   }
 
   /***** Attractions section *****/
+
 
 
 
@@ -844,7 +906,7 @@ footer {
 
   #Faqs-section {
     display: flex;
-    width: 48%;
+    width: 97%;
   }
   
   .faq-cards .faq-card {
@@ -852,6 +914,38 @@ footer {
   }
 
   /***** faq section *****/
+
+
+
+
+
+  /***** Accommodation section *****/
+
+   #accommodation-section {
+    display: flex;
+    width: 98%;
+   }
+
+   .accomm-cards .accomm-card {
+    width: 23%;
+   }
+   
+  /***** Accommodation section *****/
+
+
+
+  /***** Contact section *****/
+
+  #Contact-section {
+    width: 96%;
+  }
+
+  .contact-form {
+    background-color: #fefae0;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+  }
 }
 
 
