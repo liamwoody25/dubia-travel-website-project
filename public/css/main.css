@@ -441,7 +441,7 @@ header {
 
 .accomm-cards .accomm-card {
   background-color: #fefae0;
-  width: 40%;
+  width: 90%;
   border-radius: 15px;
   box-shadow: 0 13px 41px lightgray;
 }
@@ -563,7 +563,9 @@ footer {
     padding-top: 13px;
   }
 
-
+  input {
+    width: 72%;
+  }
   
   /***** components *****/
 
@@ -742,6 +744,13 @@ footer {
   width: 93%;
 }
 
+.contact-form {
+  background-color: #fefae0;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
 /**** Contact section ****/
 
 
@@ -804,11 +813,8 @@ footer {
   /***** components *****/
 
   input {
-    width: 400px;
+    width: 429px;
   }
-
-
-  
 
 
   
@@ -830,6 +836,11 @@ footer {
   header {
     display: flex;
     justify-content: space-between;
+  }
+
+  .header-bar {
+    display: flex;
+    justify-content: end;
   }
   
   /***** header section *****/
