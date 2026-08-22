@@ -593,12 +593,17 @@ footer {
     padding-top: 13px;
   }
 
+
+  label {
+    margin-left: 2px;
+  }
+
   input {
     width: 72%;
   }
 
-  .faq-toggle {
-     
+  textarea {
+    width: 85%;
   }
   
   /***** components *****/
