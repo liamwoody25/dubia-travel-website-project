@@ -857,6 +857,10 @@ footer {
     width: 429px;
   }
 
+  textarea {
+    width: 89%;
+  }
+
 
   
   /***** body *****/
