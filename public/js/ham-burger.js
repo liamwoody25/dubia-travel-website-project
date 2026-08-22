@@ -15,7 +15,7 @@ function hamBurgerMenu() {
 }
 
 function faqQuestion(i) {
-  if (questionBtn[i].classList.toggle('active')) {
+  if (questionBtn[i].classList.toggle('enable')) {
     faqAnswer[i].style.display = 'block'
   } else {
     faqAnswer[i].style.display = 'none'
