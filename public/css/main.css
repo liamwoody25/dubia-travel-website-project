@@ -47,7 +47,7 @@ p {
   border: none;
   padding: 0;
   transition: transform;
-  transition-duration:0.1s ;
+  transition-duration:0.3s ;
 }
 
 
@@ -375,8 +375,6 @@ header {
 
 /*** Attraction-section ***/
 
-
-
 /***** Attraction and About *****/
 
 
@@ -473,6 +471,11 @@ header {
   width: 90%;
   border-radius: 15px;
   box-shadow: 0 13px 41px lightgray;
+  transition-duration: .9s;
+}
+
+.accomm-cards .accomm-card:hover {
+  transform: scale(1.1);
 }
 
 .accomm-body {
@@ -486,6 +489,7 @@ header {
 }
 
 /***** accommodation-section *****/
+
 
 
 
@@ -517,7 +521,7 @@ header {
 
 
 
-/* footer-section */
+/**** footer-section ****/
 
 footer {
   background-color: #f8f9fa;
@@ -854,11 +858,21 @@ footer {
   /***** components *****/
 
   input {
-    width: 429px;
+    width: 90%;
+    border-bottom: 1px solid slategray;
+    border-left:none ;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
   }
 
   textarea {
-    width: 89%;
+    width: 91%;
+     border-bottom: 1px solid slategray;
+    border-left:none ;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
   }
 
 
@@ -891,6 +905,7 @@ footer {
   }
   
   /***** header section *****/
+
 
 
   
