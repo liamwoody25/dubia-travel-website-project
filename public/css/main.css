@@ -952,7 +952,6 @@ footer {
 
   .about-img {
     width: 99%;
-    height: auto;
     object-fit: cover;
   }
 
