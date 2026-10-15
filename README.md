@@ -15,8 +15,8 @@ the purpose of this Dubai travel website is to help the users find the informati
 + added interactive accordions with transitions and javascript.
 
 ### what I learned 
+I built this project so I could practise building a hamburger menu for a mobile-first approach. I also learned how to use css transitions and how to build with them
 
-I built this project so I could practice building a hamburger menu for a mobile-first approach. I also learned how to use css transitions and how to build with them
 
 
 
