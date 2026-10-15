@@ -1,7 +1,7 @@
 # Dubai Travel Website
 
 ### project description
-the purpose of this Dubai travel website is to help the users find the information about places to stay and to also look for things to do in Dubai
+the purpose of this Dubai travel website is to help users look for accommodation and to also look for things to do in Dubai
 
 ### Built with:
 + semantic HTML5,
