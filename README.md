@@ -19,7 +19,7 @@ I built this project so I could practise building a hamburger menu for a mobile-
 
 link: https://liamwoody25.github.io/dubia-travel-website-project/
 
-
+![screenshot](/assets/images/projects/Screenshot-dubai-travel-website.png)
 
 
 
