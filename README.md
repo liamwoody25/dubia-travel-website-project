@@ -3,7 +3,7 @@
 ### project description
 the purpose of this Dubai travel website is to help the users find the information about places to stay and to also look for things to do in Dubai
 
-### Technologies:
+### Built with:
 + semantic HTML5,
 + CSS3 Styling transitions,
 + JavaScript
