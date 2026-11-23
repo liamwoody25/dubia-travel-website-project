@@ -1,23 +1,23 @@
 # Dubai Travel Website
 
-### project description
-I built this Dubai travel website is to help users look for accommodation and to also look for things to do in Dubai
+### Project Description
+I built this Dubai travel website to help users look for accommodation and to also look for things to do in Dubai.
 
 ### Built with:
-+ semantic HTML5,
-+ CSS3 Styling transitions,
++ Semantic HTML5
++ CSS3 styling & transitions
 + JavaScript
 
 ### Features
 
 + Built a hamburger menu to display the navigation links for a mobile-first approach.
-+ added transitions to the cards to make them interactive.
-+ added interactive accordions with transitions and javascript.
++ Added transitions to the cards to make them interactive.
++ Added interactive accordions with transitions and JavaScript.
 
-### what I learned 
-I built this project so I could practise building a hamburger menu for a mobile-first approach. I also learned how to use css transitions and how to build with them
+### What I Learned 
+I built this project so I could practise building a hamburger menu for a mobile-first approach. I also learned how to use CSS transitions and how to build with them.
 
-link: https://liamwoody25.github.io/dubia-travel-website-project/
+**View link**: https://liamwoody25.github.io/dubia-travel-website-project/
 
 
 
