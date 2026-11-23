@@ -159,8 +159,6 @@ textarea {
 /***** form *****/
 
 
-
-
 /***** componenets *****/
 
 
@@ -225,6 +223,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 23px;
 }
 
 .left-screen-menu {
@@ -236,6 +235,7 @@ header {
   padding: 10px;
   gap: 14px;
   background-color: lightskyblue;
+  z-index: 1;
 }
 
 .header-bar {
@@ -256,9 +256,7 @@ header {
 /***** hero-section *****/
 
 .hero-section {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   margin: -20px;
   top: 45px;
 }
@@ -271,11 +269,15 @@ header {
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 74%;
   background-color: #f8f9fa;
   border-radius: 5px;
-  left: 47px;
-  bottom: 162px;
+  left: 50px;
+  bottom: 342px;
   opacity: 0.9;
 }
 
@@ -290,6 +292,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 0;
+  margin-top: 55px;
 }
 
 
@@ -357,7 +360,7 @@ header {
 }
 
 .attraction-cards .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 
@@ -475,7 +478,7 @@ header {
 }
 
 .accomm-cards .accomm-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .accomm-body {
@@ -631,7 +634,7 @@ footer {
   header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .left-screen-menu {
@@ -660,6 +663,7 @@ footer {
     position: relative;
     bottom: 241px;
     left: 168px;
+    width: 45%;
     padding: 52px 50px 22px;
   }
 
@@ -920,7 +924,7 @@ footer {
   .hero-content {
     position: relative;
     left: 388px;
-    width: 372px;
+    width: 30%;
   }
 
   .hero-img {
@@ -984,7 +988,7 @@ footer {
   }
   
   .faq-cards .faq-card {
-    width: 50%;
+    width: 45%;
     padding: 7px;
   }
 
